@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>酒処 はなさき ― 西小山の小さな海鮮居酒屋</title>
+  <meta name="description" content="東京・西小山。三浦三崎港から朝獲れの鮮魚と、和とイタリアの薫りが交わる、十六席の小さな酒処。" />
+  <meta property="og:title" content="酒処 はなさき" />
+  <meta property="og:description" content="三浦三崎港直送の鮮魚と、ひとさじのイタリア。西小山の隠れ家。" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;500;600;700;800&family=Noto+Serif+JP:wght@300;400;500;600&family=Yuji+Syuku&family=Klee+One:wght@400;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ NOISE / GRAIN OVERLAY ============ -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <a href="#top" class="nav__brand">
+      <span class="nav__brand-mark">花</span>
+      <span class="nav__brand-text">
+        <span class="nav__brand-jp">酒処 はなさき</span>
+        <span class="nav__brand-en">Sakadokoro Hanasaki</span>
+      </span>
+    </a>
+    <nav class="nav__menu" aria-label="主要メニュー">
+      <a href="#story">物語</a>
+      <a href="#menu">お品書き</a>
+      <a href="#drinks">お飲み物</a>
+      <a href="#room">店内</a>
+      <a href="#access">ご案内</a>
+    </nav>
+    <button class="nav__toggle" aria-label="メニューを開く" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section id="top" class="hero">
+    <!-- lantern glow -->
+    <div class="hero__lantern" aria-hidden="true"></div>
+    <div class="hero__lantern hero__lantern--two" aria-hidden="true"></div>
+
+    <!-- vertical text marginalia -->
+    <div class="hero__tategaki" aria-hidden="true">
+      <span>暖簾をくぐれば、夜の静けさ。</span>
+    </div>
+
+    <!-- decorative seal -->
+    <div class="hero__seal" aria-hidden="true">
+      <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="50" cy="50" r="46" fill="none" stroke="currentColor" stroke-width="2"/>
+        <circle cx="50" cy="50" r="38" fill="none" stroke="currentColor" stroke-width="0.5"/>
+      </svg>
+      <span class="hero__seal-text">は</span>
+    </div>
+
+    <div class="hero__inner">
+      <p class="hero__eyebrow"><span>since 2014</span> <em>·</em> <span>西小山　原町</span></p>
+
+      <h1 class="hero__title">
+        <span class="hero__title-jp">
+          <span class="char" style="--i:0">は</span><span class="char" style="--i:1">な</span><span class="char" style="--i:2">さ</span><span class="char" style="--i:3">き</span>
+        </span>
+        <span class="hero__title-sub">酒処 <em>·</em> Sakadokoro</span>
+      </h1>
+
+      <p class="hero__lede">
+        三浦三崎港から朝に届く鮮魚と、<br/>
+        和とイタリアが寄り添う、十六席の小さな酒場。
+      </p>
+
+      <div class="hero__cta-row">
+        <a href="#menu" class="btn btn--primary">
+          <span>本日のお品書き</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="#access" class="btn btn--ghost">ご来店のご案内</a>
+      </div>
+
+      <!-- fish silhouette -->
+      <svg class="hero__fish" viewBox="0 0 600 140" aria-hidden="true">
+        <path d="M20 70 Q120 10 280 70 Q420 130 540 70 L580 50 L580 90 L540 70 Q480 80 460 70" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+        <circle cx="120" cy="60" r="2.5" fill="currentColor"/>
+        <path d="M150 70 Q200 50 260 70 Q200 90 150 70" fill="none" stroke="currentColor" stroke-width="0.6"/>
+      </svg>
+    </div>
+
+    <div class="hero__scroll" aria-hidden="true">
+      <span>SCROLL</span>
+      <span class="hero__scroll-line"></span>
+    </div>
+  </section>
+
+  <!-- ============ STORY ============ -->
+  <section id="story" class="story section">
+    <div class="story__grid">
+      <div class="story__label">
+        <span class="num">壱</span>
+        <span class="label-jp">物語</span>
+        <span class="label-en">— Story</span>
+      </div>
+
+      <div class="story__body">
+        <h2 class="section__title">
+          <span class="overflow"><em>一日の終わりに、</em></span>
+          <span class="overflow"><em>もう一杯だけ、と</em></span>
+          <span class="overflow"><em>長居してしまう店。</em></span>
+        </h2>
+
+        <p class="lead">
+          西小山駅から、商店街の灯を背にして二分。<br/>
+          住宅街の角に小さな暖簾が下がっています。<br/>
+          十六席の店内には、毎晩のように常連が顔を揃えます。
+        </p>
+
+        <p>
+          かつてイタリア料理の厨房に立っていたご主人と、
+          客を「うちの人」のように迎える女将。
+          その日の三崎港から届いた魚を中心に、
+          手書きの壁メニューが夜ごとに姿を変えます。
+        </p>
+
+        <p>
+          刺身、煮付け、ナンコツ。
+          そして、なぜか出てくるパスタやアヒージョ。
+          ジャンルの境を軽やかに越える、ここだけの晩ごはん。
+        </p>
+
+        <div class="story__pull">
+          <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M5 15 Q15 5 25 15 M5 25 Q15 15 25 25" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+          <p>「初めてでも、いつの間にか<br/>常連になっている──そんなお店です。」</p>
+          <span>— 西小山に通う、ある客より</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MENU ============ -->
+  <section id="menu" class="menu section">
+    <header class="section__header">
+      <div class="story__label">
+        <span class="num">弐</span>
+        <span class="label-jp">お品書き</span>
+        <span class="label-en">— Today's Board</span>
+      </div>
+      <h2 class="section__title section__title--center">
+        本日の<br class="mobile-only"/>壁書き
+      </h2>
+      <p class="section__sub">
+        メニューは日替わり。<br/>
+        その日の魚と、その夜の気分で。
+      </p>
+    </header>
+
+    <div class="menu__board">
+      <div class="menu__board-inner">
+
+        <!-- column 1: SASHIMI -->
+        <article class="menu__col">
+          <h3 class="menu__col-title">
+            <span class="brush">三崎港 朝獲れ</span>
+            <em>Misaki, this morning</em>
+          </h3>
+          <ul class="menu__list">
+            <li>
+              <span class="dish">おまかせ刺身盛り</span>
+              <span class="dots"></span>
+              <span class="price">¥1,210〜</span>
+            </li>
+            <li>
+              <span class="dish">三崎まぐろ丼</span>
+              <span class="dots"></span>
+              <span class="price">時価</span>
+            </li>
+            <li>
+              <span class="dish">本日の地魚 炙り</span>
+              <span class="dots"></span>
+              <span class="price">時価</span>
+            </li>
+            <li>
+              <span class="dish">魚の煮付け（仕入次第）</span>
+              <span class="dots"></span>
+              <span class="price">時価</span>
+            </li>
+          </ul>
+          <p class="menu__col-note">※その日の漁次第。<br/>カウンター越しに「本日の魚」をどうぞ。</p>
+        </article>
+
+        <!-- column 2: IZAKAYA -->
+        <article class="menu__col">
+          <h3 class="menu__col-title">
+            <span class="brush">居酒屋の品</span>
+            <em>The izakaya plates</em>
+          </h3>
+          <ul class="menu__list">
+            <li>
+              <span class="dish">豚ばらナンコツ ねぎポン酢</span>
+              <span class="dots"></span>
+              <span class="price">¥690</span>
+            </li>
+            <li>
+              <span class="dish">ナスの揚げ浸し</span>
+              <span class="dots"></span>
+              <span class="price">¥530</span>
+            </li>
+            <li>
+              <span class="dish">マカロニサラダ（お通し）</span>
+              <span class="dots"></span>
+              <span class="price">— </span>
+            </li>
+            <li>
+              <span class="dish">季節野菜の小鉢</span>
+              <span class="dots"></span>
+              <span class="price">¥500〜</span>
+            </li>
+          </ul>
+          <p class="menu__col-note">※お通しは日替わりで、<br/>その日の小皿をお出ししています。</p>
+        </article>
+
+        <!-- column 3: ITALIAN -->
+        <article class="menu__col">
+          <h3 class="menu__col-title">
+            <span class="brush">伊と和のあいだ</span>
+            <em>A touch of Italy</em>
+          </h3>
+          <ul class="menu__list">
+            <li>
+              <span class="dish">本日のパスタ</span>
+              <span class="dots"></span>
+              <span class="price">¥1,100〜</span>
+            </li>
+            <li>
+              <span class="dish">魚介のアヒージョ</span>
+              <span class="dots"></span>
+              <span class="price">¥980</span>
+            </li>
+            <li>
+              <span class="dish">カルパッチョ（本日の鮮魚）</span>
+              <span class="dots"></span>
+              <span class="price">時価</span>
+            </li>
+            <li>
+              <span class="dish">トマトとモッツァレラ</span>
+              <span class="dots"></span>
+              <span class="price">¥780</span>
+            </li>
+          </ul>
+          <p class="menu__col-note">※元イタリアンの主人が、<br/>その日の魚で気まぐれに。</p>
+        </article>
+
+      </div>
+
+      <p class="menu__legend">
+        <span>※</span>
+        価格は税込・参考価格です。<br class="mobile-only"/>
+        実際のお品書きは、ご来店時にカウンター上の壁書きをご覧ください。
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ DRINKS ============ -->
+  <section id="drinks" class="drinks section">
+    <div class="drinks__grid">
+      <div class="story__label">
+        <span class="num">参</span>
+        <span class="label-jp">お飲み物</span>
+        <span class="label-en">— Drinks</span>
+      </div>
+
+      <div class="drinks__body">
+        <h2 class="section__title">
+          一杯目は、<br/>
+          サッポロの大瓶から。
+        </h2>
+
+        <div class="drinks__cards">
+          <div class="drink-card">
+            <span class="drink-card__no">01</span>
+            <h3>ビール</h3>
+            <p>サッポロラガー 大瓶 <span>¥790</span></p>
+            <p>生ビール <span>¥600〜</span></p>
+          </div>
+          <div class="drink-card">
+            <span class="drink-card__no">02</span>
+            <h3>日本酒</h3>
+            <p>本日の地酒 数種<br/><em>店主おすすめを冷やかぬる燗で</em></p>
+          </div>
+          <div class="drink-card">
+            <span class="drink-card__no">03</span>
+            <h3>焼酎</h3>
+            <p>芋・麦・米<br/><em>ロック・水割り・お湯割り</em></p>
+          </div>
+          <div class="drink-card">
+            <span class="drink-card__no">04</span>
+            <h3>ワイン</h3>
+            <p>赤・白・スパークリング<br/><em>イタリア料理にあわせて</em></p>
+          </div>
+          <div class="drink-card">
+            <span class="drink-card__no">05</span>
+            <h3>サワー・ハイボール</h3>
+            <p>レモン・ウーロン・梅<br/>ハイボール ¥500〜</p>
+          </div>
+          <div class="drink-card">
+            <span class="drink-card__no">06</span>
+            <h3>ソフトドリンク</h3>
+            <p>烏龍茶・ジンジャエール<br/>ノンアル各種</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ROOM / ATMOSPHERE ============ -->
+  <section id="room" class="room section">
+    <div class="room__hero">
+      <div class="room__label">
+        <span class="num">四</span>
+        <span class="label-jp">店内</span>
+        <span class="label-en">— The Room</span>
+      </div>
+      <h2 class="section__title section__title--xl">
+        十六席の、<br/>
+        知ってる人だけが知っている店。
+      </h2>
+    </div>
+
+    <div class="room__panels">
+      <div class="room__panel">
+        <span class="room__panel-num">壱</span>
+        <h3>カウンターと、卓と。</h3>
+        <p>カウンター越しに見える調理の手元と、四人掛けの小卓がいくつか。一人でも、連れ立ってでも、ちょうどよい距離感です。</p>
+      </div>
+      <div class="room__panel">
+        <span class="room__panel-num">弐</span>
+        <h3>手書きの壁書き。</h3>
+        <p>本日の魚、本日の小皿、本日のおすすめ。すべて、女将の手による壁メニュー。読んでいるだけで、もう一杯。</p>
+      </div>
+      <div class="room__panel">
+        <span class="room__panel-num">参</span>
+        <h3>常連と、はじめての客。</h3>
+        <p>七割は常連、三割ははじめての客。気取りはなく、しかし丁寧。「いらっしゃい」のひとことで、すぐに馴染めるはずです。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ACCESS ============ -->
+  <section id="access" class="access section">
+    <header class="section__header">
+      <div class="story__label">
+        <span class="num">五</span>
+        <span class="label-jp">ご案内</span>
+        <span class="label-en">— Visit</span>
+      </div>
+      <h2 class="section__title section__title--center">
+        西小山駅より<br class="mobile-only"/>
+        徒歩二分。
+      </h2>
+    </header>
+
+    <div class="access__grid">
+
+      <div class="info-card info-card--address">
+        <span class="info-card__kanji">所</span>
+        <h3>所在地</h3>
+        <p class="info-card__main">〒152-0011<br/>東京都目黒区原町<br/>一丁目10-9</p>
+        <p class="info-card__sub">1-10-9 Haramachi, Meguro-ku, Tokyo</p>
+      </div>
+
+      <div class="info-card info-card--hours">
+        <span class="info-card__kanji">刻</span>
+        <h3>営業時間</h3>
+        <p class="info-card__main">17:30 〜<br/>夜更けまで</p>
+        <p class="info-card__sub">定休日 ― 毎週 火曜日<br/>Closed on Tuesdays</p>
+      </div>
+
+      <div class="info-card info-card--access">
+        <span class="info-card__kanji">道</span>
+        <h3>アクセス</h3>
+        <p class="info-card__main">東急目黒線<br/>「西小山」駅<br/>徒歩 2分</p>
+        <p class="info-card__sub">商店街を抜け、ロータリーから<br/>環七通りを越えて50m右手。</p>
+      </div>
+
+      <div class="info-card info-card--reserve">
+        <span class="info-card__kanji">予</span>
+        <h3>ご予約・お問合せ</h3>
+        <p class="info-card__main">ふらりと、<br/>お越しください。</p>
+        <p class="info-card__sub">小さなお店です。<br/>満席の節はご容赦を。<br/>お電話は店頭にて。</p>
+      </div>
+
+    </div>
+
+    <!-- Map -->
+    <div class="access__map">
+      <iframe
+        title="酒処 はなさき 地図"
+        src="https://www.google.com/maps?q=35.6150418,139.6971267&z=18&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen></iframe>
+    </div>
+
+    <p class="access__map-link">
+      <a href="https://www.google.com/maps/place/Hanasaki/@35.6150418,139.6971267,18z" target="_blank" rel="noopener">
+        Google マップで開く
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M9 7h8v8"/></svg>
+      </a>
+    </p>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section class="closing">
+    <div class="closing__inner">
+      <div class="closing__seal" aria-hidden="true">
+        <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        <span>花</span>
+      </div>
+      <p class="closing__text">
+        今夜の魚は、<br/>
+        今夜の壁書きに。
+      </p>
+      <p class="closing__sig">— 酒処 はなさき　西小山</p>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="foot">
+    <div class="foot__grid">
+      <div class="foot__col">
+        <p class="foot__brand">酒処 はなさき</p>
+        <p class="foot__small">Sakadokoro Hanasaki<br/>西小山 · 原町 · 目黒</p>
+      </div>
+      <div class="foot__col">
+        <p class="foot__label">所在地</p>
+        <p>東京都目黒区原町1-10-9</p>
+      </div>
+      <div class="foot__col">
+        <p class="foot__label">営業</p>
+        <p>17:30 — / 火曜定休</p>
+      </div>
+      <div class="foot__col">
+        <p class="foot__label">最寄駅</p>
+        <p>東急目黒線 西小山駅 徒歩2分</p>
+      </div>
+    </div>
+    <p class="foot__base">
+      © 酒処 はなさき　·　西小山にて二〇一四年より
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
